@@ -1,0 +1,26 @@
+.checkout-details{
+    font-weight: 700;
+}
+.checkout-details th{
+    font-weight: 500;
+}
+.checkout-details img{
+    width: 100px;
+    height: 70px;
+}
+.checkout-details .table td{
+    border-bottom: 2px solid #e2e2e2;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+th.special-th {
+    font-weight: 700;
+    font-size: 20px;
+}
+.no-border{
+    border: none;
+}
+.checkout-details .table {
+    box-shadow: 0 0 20px #e2e2e2;
+    border-radius: 6px;
+}

@@ -1,0 +1,39 @@
+.single-flower{
+    background: #fff;
+    box-shadow: 0 0 15px #e2e2e2;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.single-flower-image {
+    
+    border-radius: 10px;
+}
+.single-flower-image img{
+    height: 200px;
+    position: relative;
+    border-radius:5px;    
+    transition:.3s;
+    width: 100%;
+    background: #e2e2e2
+}
+.single-flower-details{
+    width: 100%;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+.single-flower-details h6{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 25px;
+}
+.single-flower-details h2{
+    float: left;
+    width:46%;
+    font-weight: 700;
+    color: #004DFF;
+}
+.buy-btn{
+    background: #004DFF!important;
+}

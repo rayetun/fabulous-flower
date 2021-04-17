@@ -1,0 +1,15 @@
+.header h3{
+    font-size: 30px;
+    color: #004DFF;
+}
+.customNavBar a {
+    padding-right: 2.5rem!important;
+    font-weight:600!important;
+    color: #000!important;
+}
+.customButton{
+    width: 130px;
+    background-color: #004DFF!important;
+    border-color: #004DFF!important;
+    color: #fff!important;
+}

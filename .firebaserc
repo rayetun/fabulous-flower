@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "fabulous-flower",
+    "build": "fabulous-flower-build",
+    "production": "fabulous-flower-production"
+  }
+}

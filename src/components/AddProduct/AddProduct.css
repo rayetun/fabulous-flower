@@ -1,0 +1,61 @@
+.admin-menu h3 {
+    color: #fff;
+    text-align: center;
+    background: #000;
+    margin: 0;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+}
+.admin-menu{
+    background-color: #004DFF;
+    height: 100%;
+    border-radius: 10px;
+}
+.admin-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.admin-menu ul li button{
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+.admin-menu ul li button:hover{
+    background: #fff;
+    color:#000
+}
+.product-form {
+    background: #f4f7fc;
+    padding: 30px;
+    border-radius: 10px;
+}
+.product-form form {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px; 
+    min-height: 400px;
+    margin-top: 50px;
+}
+.product-form label {
+    width: calc(50% - 10px);
+    float: left;
+    margin: 10px 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.product-form input {
+    margin-top: 3px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #e2e2e2;
+}
+.product-form input[type="submit"]{
+    width:30%;
+}
+
