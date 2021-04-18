@@ -13,7 +13,7 @@ const CheckOutPage = (props) => {
     const [flowers, setFlowers] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:8000/flowers')
+        fetch('https://shrouded-plains-86393.herokuapp.com/flowers')
         .then(res => res.json())
         .then(data => setFlowers(data))
     }, [])
@@ -29,14 +29,15 @@ const CheckOutPage = (props) => {
             userEmail: loggedInUser.email,
             orderTime: new Date().toDateString('dd/M/yyyy'),
         };
-        const url =`http://localhost:8000/addOrder`;
+        const url =`https://shrouded-plains-86393.herokuapp.com/addOrder`;
         fetch(url, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(flowerData)
-        }) 
+        })
+        
     };
 
     return (

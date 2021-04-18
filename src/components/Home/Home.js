@@ -8,7 +8,7 @@ const Home = () => {
     const [flowers, setFlowers] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:8000/flowers')
+        fetch('https://shrouded-plains-86393.herokuapp.com/flowers')
         .then(res => res.json())
         .then(data => setFlowers(data))
     }, [])

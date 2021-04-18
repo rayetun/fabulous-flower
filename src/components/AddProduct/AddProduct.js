@@ -30,7 +30,7 @@ const AddProduct = () => {
             price: data.price,
             imageURL: imageURL
         };
-        const url =`http://localhost:8000/addProducts`;
+        const url =`https://shrouded-plains-86393.herokuapp.com/addProducts`;
         fetch(url, {
             method: 'POST',
             headers: {

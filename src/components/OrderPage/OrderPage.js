@@ -9,7 +9,7 @@ const OrderPage = () => {
 
     const [orders, setOrders] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:8000/orders?email='+loggedInUser.email)
+        fetch('https://shrouded-plains-86393.herokuapp.com/orders?email='+loggedInUser.email)
         .then(res => res.json())
         .then(data => setOrders(data))
     }, [])

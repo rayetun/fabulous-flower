@@ -7,13 +7,13 @@ import './DeleteProduct.css'
 const DeleteProduct = () => {
     const [flowers, setFlowers] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:8000/flowers')
+        fetch('https://shrouded-plains-86393.herokuapp.com/flowers')
         .then(res => res.json())
         .then(data => setFlowers(data))
     }, [])
 
     const deleteFlower = (id) => {
-        const url =`http://localhost:8000/delete/${id}`;
+        const url =`https://shrouded-plains-86393.herokuapp.com/delete/${id}`;
         fetch(url, {
             method: 'DELETE'
         })
