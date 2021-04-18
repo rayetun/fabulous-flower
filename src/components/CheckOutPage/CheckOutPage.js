@@ -75,7 +75,7 @@ const CheckOutPage = (props) => {
                                     <th scope="col"></th>
                                     <th scope="col"></th>
                                     <th scope="col"></th>
-                                    <th scope="col"><Link to={`/order`} onClick={orderHandler} className="btn btn-success">Order Now</Link></th>
+                                    <th scope="col"><Link to={`/`} onClick={orderHandler} className="btn btn-success">Order Now</Link></th>
                                     </tr>
                                 </thead>
                             </table>
